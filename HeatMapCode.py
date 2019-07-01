@@ -105,7 +105,10 @@ def readFrame(frame):
     	global Lz
     	global Lx_max
     	global Ly_max
-    	x=coordinates[frame][:,0]
+    	
+	
+	#Obtaining the x,y and z coordinated from the frame
+	x=coordinates[frame][:,0]
     	y=coordinates[frame][:,1]
     	z=coordinates[frame][:,2]
     	Lx=box[:,0]
