@@ -40,7 +40,7 @@ def main(args):
     biny=float(args.biny)
     bf=int(args.bf)
     ef=int(args.ef)
-    #obtainTrajectoryData(binx,biny,bf,ef)
+    #Runs the code through full trajectory
     getTrajectoryDistribution(binx,biny,bf,ef)
 
 
