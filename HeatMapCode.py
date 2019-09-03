@@ -2,7 +2,8 @@
 # Sarupria Group
 # Clemson University
 
-#Date created:- 
+#Date created: September 2, 2019
+#Last modified: September 3, 2019 
 
 import MDAnalysis as mda
 import numpy as np
